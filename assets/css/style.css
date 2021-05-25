@@ -1,0 +1,30 @@
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+hr {
+    border-color:#17a3b8;
+}
+
+.logo-viaje {
+    height: 2.5em;
+}
+
+.my-carrusel {
+    margin-top: -76px;
+}
+
+footer {
+    background: #17a3b8;
+}
+
+.bg-celeste {
+    background: #17a3b8;
+}
