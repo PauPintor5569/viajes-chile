@@ -16,6 +16,10 @@ body * {
     width: 100%;
 }
 
+a i {
+    color: #ffffff;
+}
+
 hr {
     border-color:#17a3b8;
 }
