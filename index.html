@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Viajes Chile</title>
 </head>
 <body>
     
     <nav class="navbar navbar-expand-lg navbar-dark transparent" style="z-index: 999;">
-        <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" class="logo-viaje pr-3">Viajes Chile</a>
+        <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" class="logo-viaje pr-3 font-weight-bold">Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,13 +24,13 @@
               <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quienes somos</a>
+              <a class="nav-link" href="#quienes-somos">Quienes somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
+              <a class="nav-link" href="#destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -58,8 +60,8 @@
         </div>
       </section>
 
-    <section class="container text-center my-5">
-      <h2 class="py-5">¿Quiénes somos?</h2>
+    <section class="container text-center my-5" id="quienes-somos">
+      <h2 class="py-5 font-weight-bold">¿Quiénes somos?</h2>
       <hr/>
       <div class="row">
         <div class="col-12 col-lg-4 p-3">
@@ -81,8 +83,8 @@
       </div>
     </section>
 
-    <section class="container text-center">
-      <h2 class="py-5">Destacados</h2>
+    <section class="container text-center" id="destacados">
+      <h2 class="py-5 font-weight-bold">Destacados</h2>
       <hr />
       <div class="row">
         <div class="col 12 col-lg-3 col-xs-12">
@@ -127,8 +129,8 @@
       </div>
     </section>
 
-    <section class="container text-center my-5">
-      <h2>Contacto</h2>
+    <section class="container text-center my-5" id="contacto">
+      <h2 class="py-5">Contacto</h2>
       <hr>
       <div class="typeform-widget" data-url="https://form.typeform.com/to/MKLyqm0M?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </section>
@@ -136,7 +138,7 @@
     <footer class="p-3">
       <div class="container">
         <div class="d-flex justify-content-between">
-        <P class="pt-3">VIAJES CHILE</P>
+        <h4 class="pt-3 font-weight-bold">VIAJES CHILE</h4>
           <div>
             <i class="fab fa-github-square fa-3x p-1"></i>
             <i class="fab fa-linkedin fa-3x p-1"></i>
