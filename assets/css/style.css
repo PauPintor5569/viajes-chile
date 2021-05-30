@@ -39,3 +39,8 @@ footer {
 .bg-celeste {
     background: #17a3b8;
 }
+
+.modal-style {
+    background: #000000;
+    color: #ffffff;
+}

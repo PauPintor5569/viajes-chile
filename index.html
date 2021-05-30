@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="assets/js/script.js">
     <title>Viajes Chile</title>
 </head>
 <body>
@@ -92,8 +91,9 @@
           <div class="card bg-celeste text-light">
             <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="text-left pb-3">Lorem ipsum dolor sit amet</h4>
+              <h4 class="text-left pb-3">Torres del Paine</h4>
               <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-light mt-3" data-toggle="modal" data-target="#destino1">Más información</a>
             </div>
           </div>
         </div>
@@ -102,8 +102,9 @@
           <div class="card bg-celeste text-light">
             <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="text-left pb-3">Lorem ipsum dolor sit amet</h4>
+              <h4 class="text-left pb-3">Desierto de Atacama</h4>
               <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-light mt-3" data-toggle="modal" data-target="#destino2">Más información</a>
             </div>
           </div>
         </div>
@@ -112,8 +113,9 @@
           <div class="card bg-celeste text-light">
             <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="text-left pb-3">Lorem ipsum dolor sit amet</h4>
+              <h4 class="text-left pb-3">Laguna Chaxa</h4>
               <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-light mt-3" data-toggle="modal" data-target="#destino3">Más información</a>
             </div>
           </div>
         </div>
@@ -122,8 +124,107 @@
           <div class="card bg-celeste text-light">
             <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4 class="text-left pb-3">Lorem ipsum dolor sit amet</h4>
+              <h4 class="text-left pb-3">Selva valdiviana</h4>
               <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <a href="#" class="btn btn-light mt-3" data-toggle="modal" data-target="#destino4">Más información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="modal fade" id="destino1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-style">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Torres del Paine</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body p-4">
+              <img src="assets/img/card1.jpg" alt="torrsdelpaine" class="img-fluid py-3">
+              <p class="py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint mollitia quo esse iusto? Cumque enim sequi reprehenderit porro optio ab exercitationem tempora earum iure pariatur, placeat fugit nulla recusandae voluptatum</p>
+              <p class="py-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+              <img src="assets/img/torres-del-paine.jpg" alt="torrsdelpaine2" class="img-fluid py-3">
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn bg-celeste text-light">¡Agenda tu viaje!</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="destino2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-style">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Desierto de Atacama</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body p-4">
+              <img src="assets/img/card2.jpg" alt="desierto" class="img-fluid py-3">
+              <p class="py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint mollitia quo esse iusto? Cumque enim sequi reprehenderit porro optio ab exercitationem tempora earum iure pariatur, placeat fugit nulla recusandae voluptatum</p>
+              <p class="py-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+              <img src="assets/img/desierto-atacama.jpg" alt="desierto2" class="img-fluid py-3">
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn bg-celeste text-light">¡Agenda tu viaje!</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="destino3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-style">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Laguna Chaxa</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body p-4">
+              <img src="assets/img/card3.jpg" alt="laguna-chaxa" class="img-fluid py-3">
+              <p class="py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint mollitia quo esse iusto? Cumque enim sequi reprehenderit porro optio ab exercitationem tempora earum iure pariatur, placeat fugit nulla recusandae voluptatum</p>
+              <p class="py-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+              <img src="assets/img/laguna-chaxa.jpg" alt="lagunachaxa2" class="img-fluid py-3">
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn bg-celeste text-light">¡Agenda tu viaje!</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="destino4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content modal-style">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Selva Valdiviana</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body p-4">
+              <img src="assets/img/card4.jpg" alt="Selvavaldiviana" class="img-fluid py-3">
+              <p class="py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint mollitia quo esse iusto? Cumque enim sequi reprehenderit porro optio ab exercitationem tempora earum iure pariatur, placeat fugit nulla recusandae voluptatum</p>
+              <p class="py-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+              <img src="assets/img/selva-valdiviana.jpg" alt="selvavaldiviana2" class="img-fluid py-3">
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn bg-celeste text-light">¡Agenda tu viaje!</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
             </div>
           </div>
         </div>
@@ -141,15 +242,15 @@
         <div class="d-flex justify-content-between">
         <h4 class="pt-3 font-weight-bold">VIAJES CHILE</h4>
           <div>
-            <a href="https://github.com"><i class="fab fa-github-square fa-3x p-1" data-toggle="tooltip" data-placement="top" title="GitHub"></i></a>
-            <a href="https://linkedin.com"><i class="fab fa-linkedin fa-3x p-1" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
-            <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x p-1" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
-            <a href="https://facebook.com"><i class="fab fa-facebook-square fa-3x p-1" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github-square fa-3x p-1" data-toggle="tooltip" data-placement="top" title="GitHub"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x p-1" data-toggle="tooltip" data-placement="top" title="Linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-3x p-1" data-toggle="tooltip" data-placement="top" title="Twitter"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square fa-3x p-1" data-toggle="tooltip" data-placement="top" title="Facebook"></i></a>
           </div>
         </div>
       </div>
     </footer>
-
+    <script src="./assets/js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
